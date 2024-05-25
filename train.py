@@ -45,6 +45,7 @@ def train(model, dataloaders, criterion, optimizer, num_epochs=10):
 
             for batch in dataloaders[phase]:
                 inputs = batch['image'].to(device)
+                print(inputs.shape)
                 labels = batch['mask'].to(device)
 
                 label = torch.argmax(labels, dim=1)

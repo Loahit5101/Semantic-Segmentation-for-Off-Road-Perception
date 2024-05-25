@@ -3,4 +3,7 @@ IMG_HEIGHT: 544
 IMG_WIDTH: 1024
 NUM_MASK_CHANNELS: 8
 BATCH_SIZE: 8
+NUM_CLASSES: 8
+LEARNING_RATE: 0.001  # You may adjust this value based on your specific task and dataset
+NUM_EPOCHS: 20  # You may adjust the number of epochs based on the convergence of your model
 

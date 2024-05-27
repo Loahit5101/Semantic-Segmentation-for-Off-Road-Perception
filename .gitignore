@@ -2,3 +2,6 @@ data
 utils/__pycache__
 best_model.pth
 model.onnx
+FCN.trt
+Best_model_so_far.pth
+trt_inf.py

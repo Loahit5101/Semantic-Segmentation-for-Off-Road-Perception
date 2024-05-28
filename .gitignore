@@ -5,3 +5,9 @@ model.onnx
 FCN.trt
 Best_model_so_far.pth
 trt_inf.py
+cpp_inference/CMakeLists.txt
+cpp_inference/FCN2.trt
+cpp_inference/infer.cpp
+fine_tuned_fcn_resnet50.pth
+FCN2.trt
+model2.onnx

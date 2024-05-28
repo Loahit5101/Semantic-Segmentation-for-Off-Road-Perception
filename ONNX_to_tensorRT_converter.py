@@ -1,8 +1,3 @@
-'''
-input_shape = (1, 3, 544, 1024)
-output_shape = (1,8, 544, 1024)
-'''
-
 import tensorrt as trt
 
 TRT_LOGGER = trt.Logger(trt.Logger.WARNING)
